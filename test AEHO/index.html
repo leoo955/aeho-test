@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AEHO - Association</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>AEHO</h1>
+    <p>Association des Enfants Handicapés et Orphelins d’Haïti</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Notre mission</h2>
+      <p>
+        AEHO soutient les enfants handicapés et orphelins en Haïti en leur offrant soins, éducation, accompagnement et dignité.
+      </p>
+    </section>
+
+    <section class="don">
+      <h2>Faire un don</h2>
+      <p>Contribuez à changer une vie. Chaque geste compte.</p>
+
+      <!-- Bouton Stripe -->
+      <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1RRHY22KU4CU6Krm5uOY2ALJ"
+        publishable-key="pk_test_51RRHQ32KU4CU6Krm1IeFKa3dRTlnWCwxHOw95o1n1IRQ1uCqR2st6SZwzFt3sMXsdzMF3cLikLjn0tJc7jdFPe7400k647CIsw">
+      </stripe-buy-button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AEHO. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
